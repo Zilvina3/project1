@@ -1,0 +1,19 @@
+.contacts-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts {
+    width: 50%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map-container {
+    height: 70vh;
+    width: 50%;
+}

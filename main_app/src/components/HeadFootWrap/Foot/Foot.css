@@ -1,0 +1,28 @@
+.copy-r {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    height: 25vh;
+}
+
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-links a {
+    padding: 10px;
+    color: blue;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.foot-links a:hover {
+    color: aqua;
+}

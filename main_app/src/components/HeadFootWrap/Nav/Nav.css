@@ -1,0 +1,44 @@
+.EN-LT {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: blanchedalmond;
+    height: 12vh;
+}
+
+.nav-link-wrap {
+    display: flex;
+}
+
+.nav-link-wrap a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    padding: 5px 10px;
+    margin: 5px;
+    align-self: center;
+    font-weight: 700;
+    border: 2px;
+}
+
+.nav-link-wrap a:hover {
+    color: rgb(8, 8, 160);
+    border-color: rgb(8, 8, 160);
+}
+
+.nav-link-wrap .curLink {
+    border-bottom: 2px solid rgb(0, 153, 255);
+}
+
+.link-main-name {
+    text-decoration: none;
+    color: black;
+}

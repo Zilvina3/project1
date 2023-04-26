@@ -1,6 +1,6 @@
 import Footer from "./Foot/Foot";
 import Nav from "./Nav/Nav";
-
+import './Layout.css';
 
 
 const Layout = ({ children}) => {
@@ -8,9 +8,9 @@ const Layout = ({ children}) => {
         <div>
 
         <Nav />
-
-            {children}
-
+            <div className="page-main-wrap">
+                {children} 
+            </div>
         <Footer /> 
 
         </div>
