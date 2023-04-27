@@ -5,6 +5,7 @@ import Layout from './components/HeadFootWrap/Layout';
 import { useEffect, useState } from 'react';
 import Contacts from './components/Contacts/Contacts';
 
+
 function App() {
 
   const [lang, setLang] = useState(localStorage.getItem('language'))
