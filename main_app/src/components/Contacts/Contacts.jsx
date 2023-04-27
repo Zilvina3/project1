@@ -5,12 +5,7 @@ import { ContactUs } from "./email";
 const Contacts = () => {
     return(
         <div>
-            <div className="contact">
-
-            <ContactUs />
-                
-            </div>
-
+            
             <div className="contacts-wrap">
                 <div className="contacts">
                     <h1>Kontaktai</h1>
@@ -25,7 +20,13 @@ const Contacts = () => {
                 </div>
                 <div className="map"></div><Home />
             </div>
-            
+
+            <div className="contact">
+
+            <ContactUs />
+                
+            </div>
+
         </div>
     )
 }

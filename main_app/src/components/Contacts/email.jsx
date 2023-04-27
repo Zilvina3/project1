@@ -13,11 +13,16 @@ export const ContactUs = () => {
 
     emailjs.sendForm('service_me2u88e', 'template_002jngj', form.current, 'OQF4MUAEJnnn30HE4')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
+          form.current.user_name.value = '';
+          form.current.user_email.value = '';
+          form.current.message.value = '';
+          lang === 'Eng' ? setResp('Thanks for your message.') : setResp('Ačiū už jūsų žinutę.');
       }, (error) => {
           console.log(error.text);
       });
   };
+ 
 
     if(lang === 'ENG') {
       return (
@@ -29,25 +34,21 @@ export const ContactUs = () => {
           <input type="email" name="user_email" placeholder='Your email' required/>
           <label>Message</label>
           <textarea name="message" rows="4" cols="50" placeholder='Your message . . .' required/>
-          <button type="submit" value="Send" id='contact-submit' onClick={() => {
-            setResp('Thanks for your message.')
-          }}>Send</button>
+          <button type="submit" value="Send" id='contact-submit' >Send</button>
           <div className='response'>{resp}</div>
         </form>
       );
     }else {
       return (
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} required onSubmit={sendEmail}>
           <h2>Susisiekite Su Mumis </h2>
           <label>Vardas</label>
           <input type="text" name="user_name" placeholder='Vardas' required/>   
           <label>Paštas</label>
           <input type="email" name="user_email" placeholder='Paštas' required/>
           <label>Jūsų žinutė</label>
-          <textarea name="message" rows="4" cols="50"  required/>
-          <button type="submit" value="Send" id='contact-submit' onClick={() => {
-            setResp('Ačiū už jūsų žinutę.')
-          }}>Siųsti</button>
+          <textarea name="message" rows="4" cols="50" placeholder='Žinutė . . . ' required/>
+          <button type="submit" value="Send" id='contact-submit'>Siųsti</button>
           <div className='response'>{resp}</div>
         </form>
       );
