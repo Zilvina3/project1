@@ -13,6 +13,7 @@ nav {
     padding: 0 10%;
     background-color: blanchedalmond;
     height: 12vh;
+    align-items: center;
 }
 
 .nav-link-wrap {
@@ -41,4 +42,9 @@ nav {
 .link-main-name {
     text-decoration: none;
     color: black;
+}
+
+select {
+    background-color: transparent;
+    border: none;
 }

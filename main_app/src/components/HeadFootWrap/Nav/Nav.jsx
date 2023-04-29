@@ -61,7 +61,7 @@ const Nav = () => {
                 }}>LT</option>
             </select>
             <div className="logo">
-               <Link className="link-main-name" title="to home" to='/home'><h2>PavadinimasEng</h2> </Link>
+               <Link className="link-main-name" title="to home" to='/home'><h2>LOGO</h2> </Link>
             </div>
             
             <div className="nav-link-wrap">
@@ -89,7 +89,7 @@ const Nav = () => {
                 }}>EN</option>
             </select>
             <div className="logo">
-            <Link className="link-main-name" title="to home" to='/home'><h2>PavadinimasLT</h2> </Link>
+            <Link className="link-main-name" title="to home" to='/home'><h2>LOGO</h2> </Link>
             </div>
             
             <div className="nav-link-wrap">

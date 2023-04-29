@@ -4,6 +4,7 @@ import Main from './components/Main/Main';
 import Layout from './components/HeadFootWrap/Layout';
 import { useEffect, useState } from 'react';
 import Contacts from './components/Contacts/Contacts';
+import About from './components/About/About';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         },
         {
           path : '/about',
-          element : <Layout children={<h1>About</h1>} />
+          element : <Layout children={<About />} />
       },
         {
             path : '/contacts',
