@@ -1,5 +1,6 @@
 .copy-r {
     text-align: center;
+    color: white;
 }
 
 footer {
@@ -8,8 +9,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blanchedalmond;
     height: 15vh;
+    background-color: rgb(32,42,68);
 }
 
 
@@ -20,7 +21,7 @@ footer {
 
 .foot-links a {
     padding: 10px;
-    color: blue;
+    color: white;
    font-weight: 700;
    text-decoration: none;
 }

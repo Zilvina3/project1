@@ -1,19 +1,30 @@
 .EN-LT {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 20px;
+    right: 10px;
     font-size: 18px;
     font-weight: 700;
     margin: 5px;
+    color: white;
+}
+
+.logo a {
+    display: flex;
+    justify-content: end;
+}
+
+
+.logo a img {
+    width: 50%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
-    background-color: blanchedalmond;
     height: 12vh;
     align-items: center;
+    background-color: rgb(32,42,68);
 }
 
 .nav-link-wrap {
@@ -22,7 +33,7 @@ nav {
 
 .nav-link-wrap a {
     text-decoration: none;
-    color: rgb(0, 153, 255);
+    color: white;
     padding: 5px 10px;
     margin: 5px;
     align-self: center;
@@ -31,12 +42,13 @@ nav {
 }
 
 .nav-link-wrap a:hover {
-    color: rgb(8, 8, 160);
-    border-color: rgb(8, 8, 160);
+    color: deepskyblue;
+    border-color: deepskyblue;
 }
 
 .nav-link-wrap .curLink {
-    border-bottom: 2px solid rgb(0, 153, 255);
+    border-bottom: 2px solid  white;
+    font-size: 18px;
 }
 
 .link-main-name {
@@ -47,4 +59,8 @@ nav {
 select {
     background-color: transparent;
     border: none;
+}
+
+select:hover {
+    background-color: rgba(85, 82, 82, 0.247);
 }

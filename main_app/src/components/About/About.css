@@ -5,16 +5,83 @@
     align-items: end;
 }
 
-svg {
+.svg_div {
     width: 50px;
-    color: rgb(18, 93, 117);
+    font-size: 45px;
+}
+
+#svg1 {
+    width: 70px;
 }
 
 .help {
     width: 100%;
-    height: 80%;
-    border-top: 10px solid rgb(18, 93, 117);
-    border-left: 10px solid rgb(18, 93, 117);
-    border-bottom: 10px solid rgb(18, 93, 117);
+    height: 85%;
+    border-top: 10px solid rgb(32,42,68);
+    border-left: 10px solid rgb(32,42,68);
     padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow:auto;
+    background-color: #f7eadc88;
+}
+
+.how-help {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-self: center;
+    color: rgb(32,42,68);
+    font-size: 50px;
+}
+
+.box4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.offers4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    justify-content: center;
+    height: 300px;
+    padding: 10px;
+    align-items: end;
+}
+
+.offers4 h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: rgb(32,42,68);
+}
+
+.offers4 p {
+    width: 100%;
+    margin: 0;
+}
+
+.svg_div {
+    width: 100%;
+}
+
+.more {
+    padding: 10px 20px;
+    background-color: rgb(32,42,68);
+    border: none;
+    border-radius: 8px 8px;
+    color: white;
+    margin: 10px;
+}
+
+.more:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(32,42,68);
+    font-weight: 600;
+    outline: 2px solid rgb(32,42,68);
 }

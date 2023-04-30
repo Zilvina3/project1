@@ -1,9 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import './Nav.css';
+import log from './log.gif'
+
 
 const Nav = () => {
 
-    
+   
+
     const navigationEN = [
         {
             path : '/',
@@ -11,11 +14,11 @@ const Nav = () => {
         },
         {
             path : '/about',
-            to : 'About'
+            to : 'Services'
         },
         {
             path : '/contacts',
-            to : 'Contacts and Reservation'
+            to : 'Contacts'
         },
         // {
         //     path : '/blog',
@@ -30,11 +33,11 @@ const Nav = () => {
         },
         {
             path : '/about',
-            to : 'Apie'
+            to : 'Paslaugos'
         },
         {
             path : '/contacts',
-            to : 'Kontaktai ir Rezervacija'
+            to : 'Kontaktai'
         },
         // {
         //     path : '/blog',
@@ -50,18 +53,15 @@ const Nav = () => {
         return(
             
         <nav className="eng">
-            <select className="EN-LT">
-                <option value="EN" onClick={() => {
-                    localStorage.setItem('language', 'ENG')
-                    window.location.reload()
-                }}>EN</option>
-                <option value="LT" onClick={() => {
-                    localStorage.setItem('language', 'LT')
-                    window.location.reload()
-                }}>LT</option>
+            <select className="EN-LT" onChange={(e) => {
+                localStorage.setItem('language', e.target.value)
+                window.location.reload(false);
+            }}>
+                <option value="ENG">EN</option>
+                <option value="LT">LT</option>
             </select>
             <div className="logo">
-               <Link className="link-main-name" title="to home" to='/home'><h2>LOGO</h2> </Link>
+               <Link className="link-main-name" title="to home" to='/home'><img src={log} alt="Neringa" width={'50%'} /></Link>
             </div>
             
             <div className="nav-link-wrap">
@@ -78,24 +78,21 @@ const Nav = () => {
     }else if(language === 'LT') {
         return(
            <nav className="lt">
-            <select className="EN-LT">            
-                <option value="LT" onClick={() => {
-                    localStorage.setItem('language', 'LT')
-                    window.location.reload()
-                }}>LT</option>
-                <option value="EN" onClick={() => {
-                    localStorage.setItem('language', 'ENG')
-                    window.location.reload()
-                }}>EN</option>
+            <select className="EN-LT" onChange={(e) => {
+                localStorage.setItem('language', e.target.value)
+                window.location.reload(false);
+            }}>            
+                <option value="LT">LT</option>
+                <option value="ENG">EN</option>
             </select>
             <div className="logo">
-            <Link className="link-main-name" title="to home" to='/home'><h2>LOGO</h2> </Link>
+            <Link className="link-main-name" title="to home" to='/home'><img src={log} alt="Neringa" width={'50%'} /></Link>
             </div>
             
             <div className="nav-link-wrap">
             {navigationLT.map((link, num) => {
                     return(
-                        <Link className={link.path === curLinkPath ? 'curLink': null} key={num} title={link.to} to={link.path} >{link.to}</Link>
+                        <Link className={link.path === curLinkPath ? 'curLink': null} key={num} title={link.to === 'Kontaktai ir Rezervacija' ? link.to + ' &#128394;' : link.to} to={link.path} >{link.to === 'Kontaktai ir Rezervacija' ? link.to : link.to}</Link>
                     )
                 })}
             </div>
