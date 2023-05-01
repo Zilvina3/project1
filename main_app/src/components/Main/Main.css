@@ -3,6 +3,8 @@
 .main_wrap {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 
@@ -10,11 +12,14 @@
     width:  50%;
     display: flex;
     justify-content: end;
+    align-items: flex-end;
 }
 
 .smile-black {
-    width: 70%;
-    margin-right: 10%;
+    width: 60%;
+    margin-right: 18%;
+    object-fit: contain;
+
 }
 
 .main-text-wrap {
@@ -38,7 +43,6 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: #f7eadc88;
-
 }
 
 .text p {
@@ -92,8 +96,26 @@ main .text h1 {
         flex-wrap: wrap;
         align-items: center;
         background-color: #f7eadc88;
-    
+        
     }
 
 
   }
+
+.dis {
+    display: inline-block;
+    width: 100%;
+}
+
+.mentorius-h {
+    line-height: 1.7rem;
+}
+
+.men-span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.b {
+    font-weight: bold;
+}

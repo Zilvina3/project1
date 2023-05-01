@@ -21,22 +21,15 @@ const Main = () => {
 
                 children={
                     <div className='text'>
-                    <div>
-                        <h1>Pirmas</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nobis sint et aspernatur porro, magnam ducimus delectus veniam officiis distinctio rem adipisci laborum velit nemo voluptas nisi vitae. Dicta, earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat modi dolores eaque saepe corporis distinctio, porro laborum reprehenderit odit rerum praesentium unde temporibus iusto debitis fugit incidunt cumque quis.</p>
-                    </div>   
-                    <div>
-                        <h1>Antras</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nobis sint et aspernatur porro, magnam ducimus delectus veniam officiis distinctio rem adipisci laborum velit nemo voluptas nisi vitae. Dicta, earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat modi dolores eaque saepe corporis distinctio, porro laborum reprehenderit odit rerum praesentium unde temporibus iusto debitis fugit incidunt cumque quis.</p>
-                    </div>
-                    <div>
-                        <h1>Pavadinimas</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nobis sint et aspernatur porro, magnam ducimus delectus veniam officiis distinctio rem adipisci laborum velit nemo voluptas nisi vitae. Dicta, earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat modi dolores eaque saepe corporis distinctio, porro laborum reprehenderit odit rerum praesentium unde temporibus iusto debitis fugit incidunt cumque quis.</p>
-                    </div>
-                    <div>
-                        <h1>Dar vienas</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nobis sint et aspernatur porro, magnam ducimus delectus veniam officiis distinctio rem adipisci laborum velit nemo voluptas nisi vitae. Dicta, earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat modi dolores eaque saepe corporis distinctio, porro laborum reprehenderit odit rerum praesentium unde temporibus iusto debitis fugit incidunt cumque quis.</p>
-                    </div>            
+                        <h1 className='dis'>Kas tas mentorius?</h1>
+                        <p  className='mentorius-h b'>Metorius - <span className='men-span'>tai žmogus, kuris padeda kitam žmogui tobulėti. Žinoma mes galim tobulėti savarankiškai, bet turint šalia mentorių mes visada tobulėjame žymiai greičiau, efektyviau ir geriau.</span></p>     
+                        <h1>Ką ir kaip mentorius daro ?</h1>
+                        <p><span className='b'>Suranda problemos priežastį.</span> Klausimų pagalba išsiaiškinama esminė problema.</p>  
+                        <p><span className='b'>Randa problemos priežastį.</span>  Mentorius klausimų pagalba randa kokia tos problemos pamatinė priežastis.</p> 
+                        <p><span className='b'>Sudaro veiksmų planą.</span> Mentorius padeda sudaryti veiksmų planą, kaip išspręsti problemą.</p>      
+                        <p className='mentorius-h'><span className='b'>Mentorius yra vedlys.</span> Kuris veda, kad būtų laikomasi plano ir pasiektas norimas rezultatas. Jeigu vykdant planą keičiasi aplinkybės – grįžtame prie ankstesnių punktų ir siekiam užsibrėžtų tikslų.</p>                           
+
+          
                     
                 </div>
 

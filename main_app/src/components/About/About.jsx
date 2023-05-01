@@ -41,9 +41,8 @@ const AboutLt = () => {
                                 <div className='svg_div'>
                                     &#10067;
                                 </div>
-
                                 <h3>Konsultacijos</h3>
-                                <p>Emocijų valdymas.Emocinė atmosfera.Tėvų ir vaikų santykiai. </p>
+                                <p> Įmonių ir įstaigų darbuotojamas - ar aš esu savo darbo vietoje ir aš dirbu savo darbą?</p>
                                 <div>
                                     <button className='more' 
                                     onClick={() => {
@@ -74,7 +73,7 @@ const AboutLt = () => {
 
                                 </div>
                                 <h3>Kursai</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nostrum nesciunt maiores molestias ab, accusantium neque voluptatibus incidunt repellendus. Assumenda similique modi veritatis. Est sed tempore ea iste recusandae harum!</p>
+                                <p>Kaip aš galiu pasiekti savo tikslą?</p>
                                 <div>
                                     <button className='more'
                                     onClick={() => {
@@ -90,7 +89,7 @@ const AboutLt = () => {
                                     &#128106;
                                 </div>
                                 <h3>Seminarai</h3>
-                                <p>Temos: Streso valdymas SCARF metodu. Emocinė sveikata; Meilės hormonai; Kaip kuria smegenys; Vaikų ir paauglių smegenys, emocijos ir hormonai. </p>
+                                <p>Informacija ruošiama . . .</p>
                                 <div>
                                     <button className='more'
                                     onClick={() => {

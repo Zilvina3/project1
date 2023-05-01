@@ -10,9 +10,9 @@ const Footer = () => {
         <footer>
             <div className='links-copy-wrap'>
                 <div className='foot-links'>
-                    {lang === 'ENG' ? <Link to='/home' >Home</Link> : <Link>Pagrindinis</Link>}
-                    {lang === 'ENG' ? <Link to='/services'>Services</Link> : <Link>Paslaugos</Link>}
-                    {lang === 'ENG' ? <Link to='/contacts'>Contacts</Link> : <Link>Kontaktai</Link>}
+                    {lang === 'ENG' ? <Link to='/home' >Home</Link> : <Link to='/home'>Pagrindinis</Link>}
+                    {lang === 'ENG' ? <Link to='/services'>Services</Link> : <Link to='/services'>Paslaugos</Link>}
+                    {lang === 'ENG' ? <Link to='/contacts'>Contacts</Link> : <Link to='/contacts'>Kontaktai</Link>}
                 </div>
                 <div className="copy-r"> nsBoost © Neringa Saladžė 2023 - all rights reserved.</div>
             </div>
