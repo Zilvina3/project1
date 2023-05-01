@@ -22,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
-    height: 12vh;
+    height: 110px;
     align-items: center;
     background-color: rgb(32,42,68);
 }
@@ -64,3 +64,27 @@ select {
 select:hover {
     background-color: rgba(85, 82, 82, 0.247);
 }
+
+@media (max-width: 515px) {
+
+    .logo {
+        display: none;
+    }
+
+    .nav-link-wrap {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 5%;
+    }
+
+    .EN-LT {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 5px;
+        color: white;
+    }
+
+  }

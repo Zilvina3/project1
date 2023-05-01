@@ -3,8 +3,13 @@ import ImgComp from '../ImgComp/ImgComp';
 import './About.css'
 import smile_red from './smile_red.jpg'
 import { useNavigate } from "react-router-dom";
+import { useLayoutEffect } from 'react';
 
 const About = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+        });
 
     const [lang] = useState(localStorage.getItem('language'))
 

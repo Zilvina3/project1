@@ -13,7 +13,7 @@ const Nav = () => {
             to : 'Home'
         },
         {
-            path : '/about',
+            path : '/services',
             to : 'Services'
         },
         {
@@ -32,7 +32,7 @@ const Nav = () => {
             to : 'Pagrindinis'
         },
         {
-            path : '/about',
+            path : '/services',
             to : 'Paslaugos'
         },
         {

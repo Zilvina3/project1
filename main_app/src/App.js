@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, Link } from "react-router-dom"
 import Main from './components/Main/Main';
 import Layout from './components/HeadFootWrap/Layout';
 import { useEffect, useState } from 'react';
@@ -22,20 +22,17 @@ function App() {
             element : <Layout children={<Main />} />
         },
         {
-          path : '/about',
+          path : '/services',
           element : <Layout children={<About />} />
       },
         {
             path : '/contacts',
             element : <Layout children={<Contacts />} />
         },
-        {
-            path : '/blog',
-            element : <Layout children={<h1>Blog</h1>} />
-        },
+
         {
           path : '*',
-          element : <Layout children={<h1>Wrong path . . .</h1>} />
+          element : <Layout children={<h1 className='wrong-path'>404<p className='not-found'>Page not found</p><p><Link className='front' to={'/home'} >Go to front page </Link></p></h1>} />
       },
     ]
 

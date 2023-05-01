@@ -2,3 +2,30 @@
     box-sizing: border-box;
     font-family:Arial (sans-serif)
 }
+
+.wrong-path {
+    height: 100vh;
+    text-align: center;
+    padding: 3% 0;
+    font-size: 100px;
+    color: gray;
+}
+
+.not-found {
+    font-size: 25px;
+    color: black;
+}
+
+.wrong-path p {
+    margin: 0;
+}
+
+.front {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.front:hover {
+    color: deepskyblue;
+}

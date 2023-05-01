@@ -1,8 +1,16 @@
 import ImgComp from '../ImgComp/ImgComp';
 import './Main.css'
 import smile_black from './smile_black.jpg'
+import { useLayoutEffect } from 'react';
+
+
 
 const Main = () => {
+
+    useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+    });
+
     return(
         <main>
                 <ImgComp 

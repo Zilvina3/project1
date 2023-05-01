@@ -1,6 +1,5 @@
 import Footer from "./Foot/Foot";
 import Nav from "./Nav/Nav";
-import './Layout.css';
 
 
 const Layout = ({ children}) => {
