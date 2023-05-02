@@ -33,14 +33,14 @@ const Main = () => {
                         </div>
 
                         <div className='daro'>
-                            <h1>Ką ir kaip treneris daro?</h1>
+                            <h1>Ką ir kaip organizacijos treneris daro?</h1>
                             <p><span className='b'>Suranda problemą ir priežastį.</span> Klausymų pagalba išsiaiškinama esminė problema ir nustatoma tos problemos pamatinė priežastis.</p> <br></br>
                             <p><span className='b'>Sudaro veiksmų planą.</span> Sudaromas veiksmų planas pašalinti problemai.</p>      <br></br>
                             <p className='mentorius-h'><span className='b'>Treneris yra vedlys.</span> Kuris veda, kad būtų laikomasi plano ir pasiektas norimas rezultatas. Jeigu vykdant planą keičiasi aplinkybės – grįžtame prie ankstesnių punktų ir siekiam užsibrėžtų tikslų.</p>
                         </div>
 
                         <div>
-                            <h1>Kodėl reikia trenerio?</h1>
+                            <h1>Kodėl reikia organizacijos trenerio?</h1>
                             <p className='space-word'>Treneris (geras mentorius) nukreipia  teigiama linkme, padeda atrasti asmenines komandos narių stiprybes, motyvuoja, palaiko, išmoko judėti į priekį savarankiškai, be trenerio pagalbos.</p>
                         </div>
 

@@ -2,14 +2,22 @@ import './Contacts.css'
 import ImgComp from "../ImgComp/ImgComp";
 import ask_me from './askme-black.jpg'
 import { ContactUs } from "./email";
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useEffect, useState } from 'react';
 
 
 const Contacts = () => {
 
+    const [lang, setLang] =[localStorage.getItem('language')]
+
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
-        });
+    });
+
+    useEffect(() => {
+        if(!lang) {
+         setLang(localStorage.setItem('language', 'LT'))  
+        }
+        }, [])
 
     return (
         <div className="asd">

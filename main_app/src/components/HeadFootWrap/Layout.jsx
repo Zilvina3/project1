@@ -4,7 +4,7 @@ import Nav from "./Nav/Nav";
 
 const Layout = ({ children}) => {
     return(      
-        <div>
+        <div className="body">
 
         <Nav />
             <div className="page-main-wrap">

@@ -60,7 +60,6 @@ textarea {
 
   textarea:focus {
     outline: none;
-    background-color: white;
   }
 
 .contact form input {
@@ -150,7 +149,6 @@ form div input {
 
 form div input:focus {
     outline: none;
-    background-color: white;
 }
 
 form div h1 {

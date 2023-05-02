@@ -51,8 +51,8 @@ export const ContactUs = () => {
             <option value="Kursai">
               Courses
             </option>
-            <option value="Seminarai">
-              Seminars
+            <option value="Komandos įvertinimas">
+              Komandos įvertinimas
             </option>
           </select>
           </div>
@@ -62,7 +62,7 @@ export const ContactUs = () => {
           </div>
           <div>
             <button className={buttonOn ? 'done' : null} type="submit" name='butt' value="Send" id={buttonOn ? 'contact-submit1' : 'contact-submit'} disabled={buttonOn} >Send</button>
-            <div className='response'>{resp}</div>
+            <div className='response'>{'Jūsų žinutė sėkmingai išsiųsta'}</div>
           </div>         
           
         </form>
@@ -94,8 +94,8 @@ export const ContactUs = () => {
             <option value="Kursai">
               Kursai
             </option>
-            <option value="Seminarai">
-              Seminarai
+            <option value="Komandos įvertinimas">
+            Komandos įvertinimas
             </option>
           </select>
           </div>
@@ -105,7 +105,7 @@ export const ContactUs = () => {
           </div>
           <div>
             <button  type="submit" name='butt' value="Send" id={buttonOn ? 'contact-submit1' : 'contact-submit'} disabled={buttonOn} >Siųsti</button>
-            <div className='response'>{resp}</div>
+            {resp && <div className='response'>{'Jūsų žinutė sėkmingai išsiųsta'}</div>} 
           </div>              
         </form>
       );

@@ -15,7 +15,7 @@
 
 
 .logo a img {
-    width: 50%;
+    width: 5rem;
 }
 
 nav {
@@ -68,15 +68,22 @@ select:hover {
 
 @media (max-width: 515px) {
 
+    nav {
+        justify-content: center;
+    }
+
     .logo {
         display: none;
     }
 
     .nav-link-wrap {
+        display: flex;
         width: 100%;
         justify-content: space-between;
         margin: 0 5%;
+        flex-wrap: wrap;
     }
+
 
     .EN-LT {
         position: absolute;
@@ -88,4 +95,17 @@ select:hover {
         color: white;
     }
 
+  }
+
+  @media (max-width: 406px) {
+    .nav-link-wrap a {
+        width: 100%;
+       text-align: center;
+       margin: 5px;
+    }
+
+    .nav-link-wrap .curLink {
+        border: none;
+        color: aqua;
+    }
   }

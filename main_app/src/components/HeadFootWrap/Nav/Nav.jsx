@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import './Nav.css';
-import log from './log.gif'
+import log from './logwhite.png'
 
 
 const Nav = () => {

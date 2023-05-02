@@ -29,3 +29,7 @@
 .front:hover {
     color: deepskyblue;
 }
+
+.body {
+    min-height: 100vh; display: flex;  flex-direction: column;
+}

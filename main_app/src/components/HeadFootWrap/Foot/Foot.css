@@ -29,3 +29,14 @@ footer {
 .foot-links a:hover {
     color: aqua;
 }
+
+
+footer {
+    margin-top: auto;
+}
+
+@media (max-width: 1400px) {
+    footer {
+        height: 100px;
+    }
+}

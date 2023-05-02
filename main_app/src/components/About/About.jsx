@@ -3,15 +3,23 @@ import ImgComp from '../ImgComp/ImgComp';
 import './About.css'
 import smile_red from './smile_red.jpg'
 import { useNavigate } from "react-router-dom";
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useEffect } from 'react';
 
 const About = () => {
 
+
+    const [lang, setLang] = useState(localStorage.getItem('language'))
+
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
-        });
+    });
 
-    const [lang] = useState(localStorage.getItem('language'))
+
+    useEffect(() => {
+        if(!lang) {
+         setLang(localStorage.setItem('language', 'LT'))  
+        }
+        }, [])
 
     return (
         <main>
@@ -88,7 +96,7 @@ const AboutLt = () => {
                                     {/* &#127917; */}
                                     &#128106;
                                 </div>
-                                <h3>Vertinimai</h3>
+                                <h3>Komandos įvertinimas</h3>
                                 <p>Organizacijos komandos potencialo įvertinimas</p>
                                 <div>
                                     <button className='more'

@@ -40,7 +40,7 @@ function App() {
   if(!lang) {
    setLang(localStorage.setItem('language', 'LT'))  
   }
-  })
+  }, [])
   
 
   return (

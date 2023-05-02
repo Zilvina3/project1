@@ -14,7 +14,7 @@ const Footer = () => {
                     {lang === 'ENG' ? <Link to='/services'>Services</Link> : <Link to='/services'>Paslaugos</Link>}
                     {lang === 'ENG' ? <Link to='/contacts'>Contacts</Link> : <Link to='/contacts'>Kontaktai</Link>}
                 </div>
-                <div className="copy-r"> TeamBo2st © Neringa Saladžė 2023 - all rights reserved.</div>
+                <div className="copy-r"> TeamBo2st © Organizacijos trenerė Neringa 2023 - all rights reserved.</div>
             </div>
            
         </footer>
