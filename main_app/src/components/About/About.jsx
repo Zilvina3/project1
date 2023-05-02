@@ -19,7 +19,7 @@ const About = () => {
 
                 
 
-                screen={smile_red}
+                
 
                 right_class={'main-help-wrap'}
 
@@ -88,8 +88,8 @@ const AboutLt = () => {
                                     {/* &#127917; */}
                                     &#128106;
                                 </div>
-                                <h3>Seminarai</h3>
-                                <p>Informacija ruošiama . . .</p>
+                                <h3>Vertinimai</h3>
+                                <p>Organizacijos komandos potencialo įvertinimas</p>
                                 <div>
                                     <button className='more'
                                     onClick={() => {

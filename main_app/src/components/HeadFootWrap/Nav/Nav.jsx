@@ -53,13 +53,13 @@ const Nav = () => {
         return(
             
         <nav className="eng">
-            <select className="EN-LT" onChange={(e) => {
+            {/* <select className="EN-LT" onChange={(e) => {
                 localStorage.setItem('language', e.target.value)
                 window.location.reload(false);
             }}>
                 <option value="ENG">EN</option>
                 <option value="LT">LT</option>
-            </select>
+            </select> */}
             <div className="logo">
                <Link className="link-main-name" title="to home" to='/home'><img src={log} alt="Neringa" width={'50%'} /></Link>
             </div>
@@ -78,13 +78,13 @@ const Nav = () => {
     }else if(language === 'LT') {
         return(
            <nav className="lt">
-            <select className="EN-LT" onChange={(e) => {
+            {/* <select className="EN-LT" onChange={(e) => {
                 localStorage.setItem('language', e.target.value)
                 window.location.reload(false);
             }}>            
                 <option value="LT">LT</option>
                 <option value="ENG">EN</option>
-            </select>
+            </select> */}
             <div className="logo">
             <Link className="link-main-name" title="to home" to='/home'><img src={log} alt="Neringa" width={'50%'} /></Link>
             </div>

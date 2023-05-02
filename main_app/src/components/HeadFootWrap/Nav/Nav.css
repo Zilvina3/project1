@@ -10,7 +10,7 @@
 
 .logo a {
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
 
 
@@ -21,10 +21,10 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 4%;
     height: 110px;
     align-items: center;
-    background-color: rgb(32,42,68);
+    background-color: #223f55;
 }
 
 .nav-link-wrap {
@@ -54,6 +54,7 @@ nav {
 .link-main-name {
     text-decoration: none;
     color: black;
+    
 }
 
 select {

@@ -2,7 +2,7 @@ const ImgComp = ({screen, children, right_class}) => {
     return(
         <div className="main_wrap">
              <div className="main-img-wrap">
-                    <img className="smile-black" src={screen} alt="smile-black" title="Hello!"/>
+                    <img className="smile-black" src={screen} alt="" title="Hello!"/>
                 </div>
                 <div className={right_class}>
                     {children}
