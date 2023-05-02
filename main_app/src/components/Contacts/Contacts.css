@@ -179,3 +179,13 @@ form div h1 {
         width: 40%;
     }
   }
+
+  @media (max-width: 440px) {
+    .susisiekti {
+        font-size: 2.3rem;
+    }
+
+    form {
+        padding: 5px;
+    }
+  }

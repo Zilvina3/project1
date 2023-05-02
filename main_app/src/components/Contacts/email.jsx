@@ -28,7 +28,7 @@ export const ContactUs = () => {
       return (
         <form ref={form} onSubmit={sendEmail} >
           <div>
-            <h1>Contact me directly</h1>
+            <h1 className='susisiekti'>Contact me directly</h1>
           </div>
           <div>
             <label>Name</label>
@@ -71,7 +71,7 @@ export const ContactUs = () => {
       return (
         <form ref={form} required onSubmit={sendEmail}>
           <div>
-            <h1>Susisiekite su manimi </h1>
+            <h1 className='susisiekti'>Susisiekite su manimi </h1>
           </div>       
           <div>
             <label>Vardas</label>
